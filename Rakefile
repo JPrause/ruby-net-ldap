@@ -8,6 +8,8 @@ Hoe.plugin :git
 Hoe.plugin :gemspec
 
 Hoe.spec 'net-ldap' do |spec|
+  spec.spec = 'net-ldap.gemspec'
+
   spec.rubyforge_name = spec.name
 
   spec.developer("Francis Cianfrocca", "blackhedd@rubyforge.org")
